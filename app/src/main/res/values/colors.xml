@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#fa8072</color>
+
+    <color name="textTitle">#333</color>
+    <color name="textWhite">#FFF</color>
+    <color name="textMain">#333</color>
+    <color name="textOrdinary">#666</color>
+    <color name="textSpecial">#999</color>
+    <color name="textRed">#FF4400</color>
+
+    <color name="bgGrey">#F9F9F9</color>
+    <color name="bgLine">#F0F0F0</color>
+    <color name="bgWhite">#FFFFFF</color>colorPrimary
+    <color name="bgUserPage">#66A6FF</color>
+    <color name="bgHome">#CC348BF2</color>
+    <color name="bgRed">#FF4400</color>
+</resources>

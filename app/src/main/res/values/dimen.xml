@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--  字体大小  -->
+    <dimen name="text_small_size">12sp</dimen>
+    <dimen name="text_media_size">14sp</dimen>
+    <dimen name="text_large_size">16sp</dimen>
+
+    <dimen name="text_small_title_size">18sp</dimen>
+    <dimen name="text_media_title_size">20sp</dimen>
+    <dimen name="text_large_title_size">22sp</dimen>
+
+    <!--  默认外边距  -->
+    <dimen name="margin_top">12dp</dimen>
+    <dimen name="margin_bottom">12dp</dimen>
+    <dimen name="margin_start">12dp</dimen>
+    <dimen name="margin_end">12dp</dimen>
+
+
+    <dimen name="img_padding">5dp</dimen><!--  图片与文字的内边距  -->
+
+    <dimen name="diver_line">0.8dp</dimen> <!-- 默认线的粗细 -->
+</resources>

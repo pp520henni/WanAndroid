@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="Theme.WanAndroid" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+        <!-- Primary brand color. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryVariant">@color/colorPrimary</item>
+        <item name="colorOnPrimary">@color/colorPrimary</item>
+        <!-- Secondary brand color. -->
+        <item name="colorSecondary">@color/colorPrimary</item>
+        <item name="colorSecondaryVariant">@color/colorPrimary</item>
+        <item name="colorOnSecondary">@color/colorPrimary</item>
+        <!-- Status bar color. -->
+        <item name="android:statusBarColor">?attr/colorPrimaryVariant</item>
+        <item name="android:windowTranslucentStatus">true</item>
+        <!-- Customize your theme here. -->
+
+        <item name="actionBarSize">42dp</item>
+    </style>
+
+    <!--  垂直线  -->
+    <style name="verticalLine" >
+        <item name="android:background">@color/bgLine</item>
+        <item name="android:layout_width">@dimen/diver_line</item>
+        <item name="android:layout_height">0dp</item>
+    </style>
+</resources>

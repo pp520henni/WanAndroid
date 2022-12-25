@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_main"
+    app:startDestination="@id/mainFragment">
+
+    <fragment
+        android:id="@+id/mainFragment"
+        android:name="net.wan.android.ui.fragment.main.MainFragment"
+        android:label="MainFragment"
+        tools:layout="@layout/fragment_main" />
+    <action
+        android:id="@+id/action_userFragment_to_loginFragment"
+        app:destination="@id/loginFragment"
+        app:enterAnim="@anim/slide_in_right"
+        app:exitAnim="@anim/slide_out_left"
+        app:popEnterAnim="@anim/slide_in_left"
+        app:popExitAnim="@anim/slide_out_right" />
+
+    <action
+        android:id="@+id/action_userFragment_to_settingFragment"
+        app:destination="@id/settingFragment"
+        app:enterAnim="@anim/slide_in_right"
+        app:exitAnim="@anim/slide_out_left"
+        app:popEnterAnim="@anim/slide_in_left"
+        app:popExitAnim="@anim/slide_out_right" />
+
+    <action
+        android:id="@+id/action_userFragment_to_openWebFragment"
+        app:destination="@id/openWebFragment"
+        app:enterAnim="@anim/slide_in_right"
+        app:exitAnim="@anim/slide_out_left"
+        app:popEnterAnim="@anim/slide_in_left"
+        app:popExitAnim="@anim/slide_out_right" />
+    <fragment
+        android:id="@+id/loginFragment"
+        android:name="net.wan.android.ui.fragment.login.LoginFragment"
+        android:label="LoginFragment"
+        tools:layout="@layout/fragment_login" />
+    <fragment
+        android:id="@+id/registerFragment"
+        android:name="net.wan.android.ui.fragment.login.RegisterFragment"
+        android:label="RegisterFragment"
+        tools:layout="@layout/fragment_register" />
+    <fragment
+        android:id="@+id/settingFragment"
+        android:name="net.wan.android.ui.fragment.setting.SettingFragment"
+        android:label="SettingFragment"
+        tools:layout="@layout/fragment_setting" />
+    <fragment
+        android:id="@+id/openWebFragment"
+        android:name="net.wan.android.ui.fragment.user.OpenWebFragment"
+        android:label="OpenWebFragment"
+        tools:layout="@layout/fragment_open_web" />
+
+
+</navigation>
